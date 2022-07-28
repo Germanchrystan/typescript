@@ -42,6 +42,7 @@ for(let movie of movies) {
 // In this example foundMovie starts as a 'any' type
 foundMovie = 1 // This won't return an error
 
+// We should initialize a variable with a type
 let otherFoundMovie: string; // This will eventually be a string
 for(let movie of movies) {
     if (movie === "The Thing") {
