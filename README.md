@@ -1,6 +1,6 @@
 # TypeScript
 Javascript is quirky... and that largely has to do weith its development, and its original goal. 
-~~~
+~~~js
 // We can multiply null or undefined
 // without getting an error
 null * 3 // returns 0
@@ -8,7 +8,7 @@ null * 3 // returns 0
 undefined * 5235 // returns NaN
 ~~~
 
-~~~
+~~~js
 // If I try to access a property that doesn't exist within an object, 
 // it will return undefined
 
