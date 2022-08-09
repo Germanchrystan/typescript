@@ -3,4 +3,4 @@ function calculateTax(price: number | string, tax: number) {
         price = parseFloat(price = price.replace("$", ""))
     }
     return price * tax
-}
+}  
