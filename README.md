@@ -1,5 +1,5 @@
 # TypeScript
-Javascript is quirky... and that largely has to do weith its development, and its original goal. 
+Javascript is quirky... and that largely has to do with its development, and its original goal. 
 ~~~js
 // We can multiply null or undefined
 // without getting an error
