@@ -135,5 +135,4 @@ interface Square {
 }
 ~~~
 
-## Never Checking
 
