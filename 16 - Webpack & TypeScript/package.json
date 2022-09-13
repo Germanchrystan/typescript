@@ -1,0 +1,25 @@
+{
+  "name": "webpack_and_typescript",
+  "version": "1.0.0",
+  "description": "## What is the point of Webpack? Webpack helps us take complicated applications that maybe consist of dozens or hundreds of different files, with dependencies where we import and export modules, with code split into different files, and use of third party libraries; and manage them into bundles. It combines them, compresses them, into small bundles that we can include.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "serve": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
